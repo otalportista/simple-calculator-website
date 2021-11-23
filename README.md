@@ -7,13 +7,13 @@
 
 ## 💻 Website Preview
 * Homepage
-![homepage](https://github.com/otalportista/simple-calculator-website/blob/main/screenshots/1.png)
+[<img src="https://raw.githubusercontent.com/otalportista/simple-calculator-website/main/screenshots/1.PNG"/>](https://github.com/otalportista/simple-calculator-website/blob/main/screenshots/1.png)
 * Temperature converter
-![temperature_converter](https://github.com/otalportista/simple-calculator-website/blob/main/screenshots/2.png)
+[<img src="https://raw.githubusercontent.com/otalportista/simple-calculator-website/main/screenshots/2.PNG"/>](https://github.com/otalportista/simple-calculator-website/blob/main/screenshots/2.png)
 * Calculator IMC
-![calculator_imc](https://github.com/otalportista/simple-calculator-website/blob/main/screenshots/3.png)
+[<img src="https://raw.githubusercontent.com/otalportista/simple-calculator-website/main/screenshots/3.PNG"/>](https://github.com/otalportista/simple-calculator-website/blob/main/screenshots/3.png)
 * Currency converter
-![currency_converter](https://github.com/otalportista/simple-calculator-website/blob/main/screenshots/4.png)
+[<img src="https://raw.githubusercontent.com/otalportista/simple-calculator-website/main/screenshots/4.PNG"/>](https://github.com/otalportista/simple-calculator-website/blob/main/screenshots/4.png)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome.<br />
