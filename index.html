@@ -1,0 +1,45 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/calculadora.css">
+    <link rel="stylesheet" href="style/conversorTemperatura.css">
+    <link rel="stylesheet" href="style/imc.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body id="main">
+  <!-- Left Div -->
+  <div class="menu">
+    <h2>Calculator</h2><br><br>
+    <small>Select type of calculator</small><br><br><br>
+
+    <!-- Menu -->
+    <div class="buttons">
+        <span class="menu-icon" id="menu-1">123</span>
+        <span class="menu-icon" id="menu-2"><i class="fas fa-thermometer-three-quarters"></i></span>
+        <span class="menu-icon" id="menu-3"><i class="fas fa-weight"></i></span>
+        <span class="menu-icon" id="menu-4"><i class="fa fa-coins"></i></span>
+    </div>
+  </div>
+
+  <!-- Right Div -->
+  <div class='content'>
+    <div id="menu-1" class="calculadoraImc">
+    </div>
+
+    <div id="menu-2" class="conversorTemperatura">
+    </div>
+
+    <div id="menu-3" class="calculadoraImc">
+    </div>
+
+    <div id="menu-4" class="currencyConertor">
+    </div>
+  </div>
+  
+  <script src="script/index.js"></script>
+
+</body>
+</html>

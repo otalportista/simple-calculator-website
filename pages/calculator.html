@@ -1,0 +1,30 @@
+        
+        <label id='screen' style="color: white; font-size: 45px; text-align: right; width: 100%;">0</label>
+        <div class="calculator" style="width: 420px; text-align: right; margin: 0 auto;">
+                <input style="grid-column: span 4;width: 0px;opacity: 0;height: 0;">
+                <span class="num" id="cleaner">C</span>
+                <span class="num operator" onclick='pownumber()'>x²</span>
+                <span class="num" id="delete" style="margin-right: 0px;">&larr;</span>
+                <span class="num operator" onclick='addToScreen("/")'>/</span>
+
+                <span class="num" onclick='addToScreen("7")'>7</span>
+                <span class="num" onclick='addToScreen("8")'>8</span>
+                <span class="num" onclick='addToScreen("9")'>9</span>
+                <span class="num operator" onclick='addToScreen("*")'>*</span>
+
+                <span class="num" onclick='addToScreen("4")'>4</span>
+                <span class="num" onclick='addToScreen("5")'>5</span>
+                <span class="num" onclick='addToScreen("6")'>6</span>
+                <span class="num operator" style="margin-right: 0px;" onclick='addToScreen("-")'>-</span>
+
+                <span class="num" onclick='addToScreen("1")'>1</span>
+                <span class="num" onclick='addToScreen("2")'>2</span>
+                <span class="num" onclick='addToScreen("3")'>3</span>
+                <span class="num operator" style="margin-right: 0px;" onclick='addToScreen("+")'>+</span>
+
+                <span class="num" onclick="result2()">%</span>
+                <span class="num" onclick='addToScreen("0")'>0</span>
+                <span class="num" onclick="addToScreen('.')">.</span>
+                <span class="num equal"  style="margin-right: 0px;"onclick="result()">=</span>
+        </div>
+        <script src="script/calculator.js"></script>

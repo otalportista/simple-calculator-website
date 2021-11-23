@@ -1,0 +1,78 @@
+    <div style="display: flex;">
+        <!-- Select 1 para converter a moeda inicial -->
+        <select id="from_money" class="form-control">
+            <option value="EUR" selected>Euro(EUR)</option>
+            <option value="AUD">Australian Dollar(AUD)</option>
+            <option value="BGN">Bulgarian Lev(BGN)</option>
+            <option value="BRL">Brazilian Real(BRL)</option>
+            <option value="CAD">Canadian Dollar(CAD)</option>
+            <option value="CHF">Swiss Franc(CHF)</option>
+            <option value="CNY">Renminbi (Yuan)(CNY)</option>
+            <option value="CZK">Czech Koruna(CZK)</option>
+            <option value="DKK">Danish Krone(DKK)</option>
+            <option value="GBP">Pound Sterling(GBP)</option>
+            <option value="HKD">Hong Kong Dolla(HKD)</option>
+            <option value="HRK">Croatian Kuna(HRK)</option>
+            <option value="HUF">Forint(HUF)</option>
+            <option value="IDR">Rupiah(IDR)</option>
+            <option value="ILS">New Israeli Sheqe(ILS)</option>
+            <option value="INR">Indian Rupee(INR)</option>
+            <option value="ISK">Iceland Krona(ISK)</option>
+            <option value="JPY">Yen(JPY)</option>
+            <option value="KRW">Won(KRW)</option>
+            <option value="MXN">Mexican Peso(MXN)</option>
+            <option value="MYR">Malaysian Ringgit(MYR)</option>
+            <option value="NOK">Norwegian Krone(NOK)</option>
+            <option value="NZD">New Zealand Dollar(NZD)</option>
+            <option value="PHP">Philippine Peso(PHP)</option>
+            <option value="PLN">Zloty(PLN)</option>
+            <option value="RON"> Romanian Leu(RON)</option>
+            <option value="RUB">Russian Ruble(RUB)</option>
+            <option value="SEK">Swedish Krona(SEK)</option>
+            <option value="SGD">Singapore Dollar(SGD)</option>
+            <option value="THB">Thai Baht(THB)</option>
+            <option value="TRY">Turkish Lira(TRY)</option>
+            <option value="USD">US Dollar(USD)</option>
+            <option value="ZAR">Rand(ZAR)</option>
+        </select>
+        <!-- Select 2 para converter para a moeda pretendida -->
+        <select id="to_money" class="form-control" style="margin-left: 10px;">
+            <option value="INR">Indian Rupee(INR)</option>
+            <option value="EUR">Euro(EUR)</option>
+            <option value="AUD">Australian Dollar(AUD)</option>
+            <option value="BGN">Bulgarian Lev(BGN)</option>
+            <option value="BRL">Brazilian Real(BRL)</option>
+            <option value="CAD">Canadian Dollar(CAD)</option>
+            <option value="CHF">Swiss Franc(CHF)</option>
+            <option value="CNY">Renminbi (Yuan)(CNY)</option>
+            <option value="CZK">Czech Koruna(CZK)</option>
+            <option value="DKK">Danish Krone(DKK)</option>
+            <option value="GBP">Pound Sterling(GBP)</option>
+            <option value="HKD">Hong Kong Dolla(HKD)</option>
+            <option value="HRK">Croatian Kuna(HRK)</option>
+            <option value="HUF">Forint(HUF)</option>
+            <option value="IDR">Rupiah(IDR)</option>
+            <option value="ILS">New Israeli Sheqe(ILS)</option>
+            <option value="ISK">Iceland Krona(ISK)</option>
+            <option value="JPY">Yen(JPY)</option>
+            <option value="KRW">Won(KRW)</option>
+            <option value="MXN">Mexican Peso(MXN)</option>
+            <option value="MYR">Malaysian Ringgit(MYR)</option>
+            <option value="NOK">Norwegian Krone(NOK)</option>
+            <option value="NZD">New Zealand Dollar(NZD)</option>
+            <option value="PHP">Philippine Peso(PHP)</option>
+            <option value="PLN">Zloty(PLN)</option>
+            <option value="RON">Romanian Leu(RON)</option>
+            <option value="RUB">Russian Ruble(RUB)</option>
+            <option value="SEK">Swedish Krona(SEK)</option>
+            <option value="SGD">Singapore Dollar(SGD)</option>
+            <option value="THB">Thai Baht(THB)</option>
+            <option value="TRY">Turkish Lira(TRY)</option>
+            <option value="USD" selected>US Dollar(USD)</option>
+            <option value="ZAR">Rand(ZAR)</option>
+        </select>
+    </div>
+    <input type="text" id="CurrencYconversorNumber" class="form-control" style="margin-top: 10px; margin-bottom: 10px;">
+    <input type="text" id="CurrencYconversorTempValue" class="form-control" disabled>
+
+    <script src="script/currency.js"></script>

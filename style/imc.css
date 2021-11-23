@@ -1,0 +1,9 @@
+.calculadoraImc{
+    position: relative;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .calculadoraImc input{
+    margin-top: 20px;
+  }

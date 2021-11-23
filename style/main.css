@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: Ubuntu;
+}
+
+body{
+  min-height: 100%;
+  background-color: #1d293a !important;
+  min-width: 100%;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.menu{
+    background: #0f1722;
+    color: white;
+    height: 100%;
+    float: left;
+    width: 20%;
+    padding: 5%;
+    text-align: center;
+}
+
+.buttons{
+  display: grid;
+  /**grid-template-columns: auto auto;**/
+
+}
+
+.buttons span{
+  background: #151e2b;
+  padding: 30px;
+  height: 90px;
+  margin: 10px;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+}
+
+.buttons span>i{
+    font-size: 25px;
+}
+
+.buttons span:hover{
+  background: #6c63ff;
+  cursor: pointer;
+}
+
+.buttons span:active{
+  background: #6c63ff;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.content > div.visible{
+  opacity: 1;
+}
+
+.content > div{
+  opacity: 0;
+  position: absolute !important;
+}
+
+.active-btn {
+  background-color: #6c63ff !important;
+}
